@@ -1,0 +1,129 @@
+/* All image and vidoe CSS */
+img {
+  align-self: center;
+  width: 650px;
+  height: auto;
+  max-width:100%;
+  border-radius: 5%;
+}
+video{
+  align-self: center;
+  max-width:100%;
+  height: auto;
+  border-radius: 5%;
+}
+
+/* CSS Resume */
+#resumebody  {
+  background: #C0C0C0;
+  font-family: sans-serif;
+  }
+  #resumecontext  {
+    padding: 10%;
+    padding-top: 10px;
+  }
+  #contact  {
+    display: flex;
+    grid-template-columns:250px 250px 300px;
+    grid-template-rows: auto;
+    align-items: center;
+    line-height: 2.75;
+    column-count: 3;
+    column-gap: 3px;
+  }
+  #email {
+    font-size: 1.35em;
+    padding-top: 20px;
+    font-weight: bold;
+    padding-left: 110px;
+  }
+  #number {
+    font-size: 1.35em;
+    padding-top: 20px;
+    padding-left: 110px;
+    font-weight: bold;
+  }
+  #name {
+    font-size: 1.7em;
+    padding-top: 20px;
+    font-weight: bold;
+  }
+
+  
+/* CSS Index Page */
+#indexbody {
+  background: linear-gradient(120deg, rgb(224, 224, 224) 20%, rgb(235, 218, 200) 100%);
+}
+
+.bodycontain  {
+  font-family: "Times New Roman", Times, serif;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.02em;
+  line-height: 2;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+/*CSS About page */  
+
+#aboutbody {
+  background: radial-gradient(ellipse at top, rgb(224, 235, 220) 0%, rgb(178, 182, 216) 33%, rgb(156, 158, 158) 66%, rgb(201, 209, 202) 100%);
+}
+
+/* CSS Navigation */
+#navcontainer {
+  font-size: 1em;
+  font-variant: small-caps;
+  position: relative;
+  top: 0;
+}
+#navbar {
+  top: 10;
+  padding: 10;
+  width: 100%;
+  height: 3.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #c0b3b3;
+  color: rgb(8, 8, 8);
+  text-align: center;
+  list-style-type: none;
+}
+a.navbarlink:link{
+  background-color: #c0b3b3;
+  color: #ffffff;
+  padding: 4px 4px;
+  border: 4px;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 100%;
+  margin: 10px;
+}
+a.navbarlink:visited{
+  color: #000000;
+  background-color: #c0b3b3;
+}
+a.navbarlink:hover {
+  font-family: "Arial Black";
+  background-color: #c0b3b3;
+  font-size: 120%;
+}
+.navbarlist  {
+  padding: 10px;
+}
+
+
+/* CSS Link */
+a.link:visited{
+  color: #3d3d3d;
+  background-color: #eeeeee;
+}
+a.link:hover {
+  font-family: "Arial Black";
+  background-color: #b6b6b6;
+  font-size: 120%;
+}
