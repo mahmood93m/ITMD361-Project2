@@ -139,6 +139,7 @@ padding-right: 20px;
 }
 .navbarlist ul {
   display: inline-block;
+  height:10px;
 }
 .navbarlist li {
   display: inline-block;
