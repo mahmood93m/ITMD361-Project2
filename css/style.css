@@ -120,7 +120,6 @@ a.navbarlink:link{
   text-align: center;
   display: inline-block;
   font-size: 100%;
-  float: left;
   margin: 10px;
 }
 a.navbarlink:visited{
